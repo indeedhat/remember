@@ -17,6 +17,10 @@ type sqliteDriver struct {
 	connection *sql.DB
 }
 
+func (driver *sqliteDriver) Init(dsn string) error {
+	return driver.connect(dsn)
+}
+
 func (driver *sqliteDriver) Save(object *remember.DataObject) error {
 	if 0 != object.ID {
 		return updateObject(object, driver.connection)

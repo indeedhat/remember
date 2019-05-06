@@ -1,8 +1,8 @@
 package main
 
 import (
-	"database/sql"
 	_ "github.com/mattn/go-sqlite3"
+	"database/sql"
 	"os"
 )
 
@@ -30,7 +30,7 @@ func (driver *sqliteDriver) connect(dsn string) error {
 // check if the database schema already exists or if it needs to be created
 func schemaExists(dsn string) bool {
 	_, err := os.Stat(dsn)
-	return nil == err
+	return os.IsNotExist(err)
 }
 
 // setup the schema for a new database
