@@ -9,9 +9,10 @@ CREATE TABLE data_object (
     updated_at integer
 );
 
-CREATE UNIQUE INDEX data_id ON data_object(id);
 CREATE INDEX group_id ON data_object(group_id);
+
 CREATE INDEX created_at ON data_object(created_at);
+
 CREATE INDEX updated_at ON data_object(updated_at);
 `
 

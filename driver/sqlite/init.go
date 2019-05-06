@@ -1,8 +1,8 @@
 package main
 
 import (
-	_ "github.com/mattn/go-sqlite3"
 	"database/sql"
+	_ "github.com/mattn/go-sqlite3"
 	"os"
 )
 

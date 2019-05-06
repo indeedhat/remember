@@ -4,6 +4,7 @@ import (
 	"github.com/indeedhat/remember"
 	_ "github.com/mattn/go-sqlite3"
 	"path/filepath"
+	"fmt"
 )
 
 func main() {
