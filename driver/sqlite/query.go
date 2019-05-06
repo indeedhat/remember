@@ -3,9 +3,9 @@ package main
 const SCHEMA = `
 CREATE TABLE data_object (
 	title text,
-	group_id integer
+	group_id integer,
     payload text,
-	created_at integer
+	created_at integer,
     updated_at integer
 );
 
