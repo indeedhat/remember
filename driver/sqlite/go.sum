@@ -1,2 +1,4 @@
+github.com/indeedhat/remember v0.0.0-20190506120144-847b0d3c9fe3 h1:98cJq/j71rDfzqou2pz3NJSV/F8xzN5Nzvj8wfqwEJ4=
+github.com/indeedhat/remember v0.0.0-20190506120144-847b0d3c9fe3/go.mod h1:CnWdmXhDC3tyjAx/kySVh4eJ+tK5gSLRv6wveGlDrek=
 github.com/mattn/go-sqlite3 v1.10.0 h1:jbhqpg7tQe4SupckyijYiy0mJJ/pRyHvXf7JdWK860o=
 github.com/mattn/go-sqlite3 v1.10.0/go.mod h1:FPy6KqzDD04eiIsT53CuJW3U88zkxoIYsOqkbpncsNc=
